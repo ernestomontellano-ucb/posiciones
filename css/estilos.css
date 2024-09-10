@@ -13,12 +13,46 @@ body{
 /**/
 
 .container{
-    width: 1000px;
+    width: 600px;
     margin: 0 auto;
    padding:60px;
+   border: 1px solid #000;
+    position: relative;
 }
 .container div{
     padding:40px;
     background: #eee;
     margin-bottom: 20px;
+}
+
+.container div:nth-child(1){
+    position:fixed;
+    background: blue;
+    color:white;
+    bottom:0;
+    left:0;
+    z-index: 1100;
+    width: 100%;;
+}
+.container div:nth-child(2){
+   position:absolute;
+   z-index:9999;
+   right:-100px;
+   top:100px;
+   background: cyan; 
+}
+.container div:nth-child(3){
+   position:absolute;
+   left:60px;
+   top:0;
+   width:200px;
+   background: yellow; 
+   z-index: 1000;
+}
+.container div:nth-child(4){
+   position:absolute;
+   left:120px;
+   top:0;
+   width:200px;
+   background: red; 
 }
