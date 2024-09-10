@@ -1,0 +1,24 @@
+/*RESETEO*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #666;
+}
+/**/
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+   padding:60px;
+}
+.container div{
+    padding:40px;
+    background: #eee;
+    margin-bottom: 20px;
+}
